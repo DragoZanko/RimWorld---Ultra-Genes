@@ -1,0 +1,5 @@
+If you see this, you have the development version, which is slightly less optimized for the user.
+
+Changes:
+- The Source/ folder is included, which increases the mod's download and storage size. I also want to highlight two issues in DragoZanko's mods, the presence of 0Harmony and the previews intended to showcase mod content in the workshop. These things don't necessarily have to be a performance problem while playing, but it's best not to risk increasing loading times too much, as some people have to work.
+- The contents of the Languages/SpanishLatin/ folder are not copied to the Languages/Spanish/ folder.
