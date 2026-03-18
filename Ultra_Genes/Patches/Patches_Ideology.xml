@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+  <mods>
+    <li>Ludeon.RimWorld.Ideology</li>
+  </mods>
+  <match Class="PatchOperationAdd">
+    <xpath>/Defs/FactionDef[defName="NudistTribe"]/xenotypeSet/xenotypeChances</xpath>
+      <value>
+        <UG_Nudis>0.007</UG_Nudis>
+      </value>
+  </match>
+</Operation>
+
+</Patch>

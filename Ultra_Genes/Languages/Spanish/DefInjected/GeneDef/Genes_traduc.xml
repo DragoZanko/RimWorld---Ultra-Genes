@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<UG_MammothBlondeHair.label>cabello rubio mamut</UG_MammothBlondeHair.label>
+  <UG_MammothBlondeHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_MammothBlondeHair.description>
+
+  <UG_PlatinePinkHair.label>cabello rosa platino</UG_PlatinePinkHair.label>
+  <UG_PlatinePinkHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_PlatinePinkHair.description>
+
+  <UG_MilitaryBlondeHair.label>cabello rubio militar</UG_MilitaryBlondeHair.label>
+  <UG_MilitaryBlondeHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_MilitaryBlondeHair.description>
+
+  <UG_OceanicDeepIceHair.label>cabello hielo oceánico profundo</UG_OceanicDeepIceHair.label>
+  <UG_OceanicDeepIceHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_OceanicDeepIceHair.description>
+
+  <UG_InfernalHair.label>cabello infernal</UG_InfernalHair.label>
+  <UG_InfernalHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_InfernalHair.description>
+
+  <UG_DeepInfernoHair.label>cabello infierno profundo</UG_DeepInfernoHair.label>
+  <UG_DeepInfernoHair.description>Los portadores de este gen tienen un color de pelo particular. Con múltiples genes de color de pelo, se selecciona uno al azar.</UG_DeepInfernoHair.description>
+
+  <UG_SkinPink.label>piel rosada</UG_SkinPink.label>
+  <UG_SkinPink.description>Los portadores de este gen producen un pigmento que da a su piel un color rosado.</UG_SkinPink.description>
+
+
+
+
+
+  <UG_HardToStop.label>duro de frenar</UG_HardToStop.label>
+  <UG_HardToStop.description>Los portadores de este gen se ralentizan menos al recibir daño.</UG_HardToStop.description>
+
+  <UG_NightOwl.label>búho</UG_NightOwl.label>
+  <UG_NightOwl.description>Los portadores de este gen tienen una preferencia natural por estar despiertos por la noche.</UG_NightOwl.description>
+
+  <UG_WarmShiftingBlood.label>Sangre cambiante cálida</UG_WarmShiftingBlood.label>
+  <UG_WarmShiftingBlood.description>Los portadores de este gen tienen un rango de producción de calor interno aumentado, lo que les otorga una mayor flexibilidad ambiental.</UG_WarmShiftingBlood.description>
+
+  <UG_OcelotEyes.label>ojos de ocelote</UG_OcelotEyes.label>
+  <UG_OcelotEyes.description>Los portadores de este gen poseen el enfoque agudo y depredador de un felino.</UG_OcelotEyes.description>
+
+  <UG_TwistedHorns.label>cuernos torcidos</UG_TwistedHorns.label>
+  <UG_TwistedHorns.description>Los portadores de este gen desarrollan dos cuernos huecos que sobresalen de la frente y pueden almacenar energía.</UG_TwistedHorns.description>
+
+  <UG_EarsHorse.label>orejas de caballo</UG_EarsHorse.label>
+  <UG_EarsHorse.description>Los portadores de este gen tienen orejas como las de un caballo.</UG_EarsHorse.description>
+
+  <UG_BioElectricThighs.label>muslos bio-eléctricos</UG_BioElectricThighs.label>
+  <UG_BioElectricThighs.description>Los portadores de este gen pueden defenderse con descargas eléctricas generadas en sus caderas y muslos.</UG_BioElectricThighs.description>
+
+  <UG_TurbineLung.label>pulmon turbina</UG_TurbineLung.label>
+  <UG_TurbineLung.description>Los portadores de este gen tienen un pulmón compacto con múltiples cámaras, funciona de forma similar a un corazón o un intestino.</UG_TurbineLung.description>
+
+  <UG_DigitigradeGait.label>pisada digitígrada</UG_DigitigradeGait.label>
+  <UG_DigitigradeGait.description>Los portadores de este gen tienen una estructura de piernas modificada que les permite caminar sobre los dedos de los pies, aumentando la velocidad de movimiento y el sigilo, pero reduciendo el peso total que pueden estabilizar.</UG_DigitigradeGait.description>
+
+  <UG_UnguligradeGait.label>pisada ungulígrada</UG_UnguligradeGait.label>
+  <UG_UnguligradeGait.description>Los portadores de este gen poseen pies en forma de pezuña, lo que proporciona una mayor velocidad de movimiento y eficiencia de carga.</UG_UnguligradeGait.description>
+
+
+
+
+
+  <UG_PhoenixArchite.label>fénix</UG_PhoenixArchite.label>
+  <UG_PhoenixArchite.labelShortAdj>fénix</UG_PhoenixArchite.labelShortAdj>
+  <UG_PhoenixArchite.description>Los portadores de este gen pueden resurgir tras la muerte. Si el portador muere siendo adulto, un bebé emergerá del cadáver después de 9 horas, heredando todos los genes y pasiones.</UG_PhoenixArchite.description>
+
+</LanguageData>

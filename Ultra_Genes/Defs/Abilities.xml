@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<AbilityDef>
+  <defName>UG_ElectricShock</defName>
+  <label>electric shock</label>
+  <description>Release a high-voltage discharge to disable an opponent's nervous system. If the discharge is imprecise, it may only cause localized paralysis in a leg.</description>
+  <iconPath>Genes/BioElectricThighs</iconPath>
+  <jobDef>CastAbilityOnThingMelee</jobDef>
+  <charges>2</charges>
+  <cooldownTicksRange>20000</cooldownTicksRange> <cooldownPerCharge>true</cooldownPerCharge> <hostile>true</hostile>
+  <aiCanUse>true</aiCanUse>
+  <verbProperties>
+    <verbClass>Verb_CastAbilityTouch</verbClass>
+    <drawAimPie>False</drawAimPie>
+    <range>-1</range>
+    <warmupTime>0.5</warmupTime>
+    <targetParams>
+      <canTargetPawns>true</canTargetPawns>
+      <canTargetLocations>false</canTargetLocations>
+    </targetParams>
+  </verbProperties>
+  <comps>
+    <li Class="DragoZanko.Ultra.Genes.CompProperties_ElectricShock">
+      <hediffDef>UG_ElectricShockHediff</hediffDef>
+      <failHediffDef>UG_ElectricShockFailHediff</failHediffDef>
+      <durationTicks>1250</durationTicks>
+      <maxDurationTicks>2500</maxDurationTicks>
+      <failDurationTicks>2500</failDurationTicks>
+      <maxFailDurationTicks>5000</maxFailDurationTicks>
+      <failChance>0.2</failChance>
+    </li>
+  </comps>
+</AbilityDef>
+
+</Defs>
