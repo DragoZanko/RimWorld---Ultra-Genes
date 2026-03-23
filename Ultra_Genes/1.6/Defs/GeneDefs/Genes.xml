@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <GeneDef>
+    <defName>UG_HardToStop</defName>
+    <label>hard to stop</label>
+    <description>Carriers of this gene are less slowed down when taking damage.</description>
+    <iconPath>Genes/HardToStop</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <displayOrderInCategory>551</displayOrderInCategory>
+    <biostatCpx>1</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet> <exclusionTags>
+      <li>stagger</li>
+    </exclusionTags>
+    <statFactors>
+      <StaggerDurationFactor>0.5</StaggerDurationFactor>
+    </statFactors>
+  </GeneDef>
+
+
+
+<GeneDef>
+  <defName>UG_NightOwl</defName>
+  <label>night owl</label>
+  <description>Carriers of this gene have a natural preference for being awake at night.</description>
+  <iconPath>Genes/NightOwl</iconPath>
+  <displayCategory>Sleep</displayCategory>
+  <biostatCpx>1</biostatCpx>
+  <biostatMet>0</biostatMet>
+  <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  <forcedTraits>
+    <li>
+      <def>NightOwl</def>
+    </li>
+  </forcedTraits>
+  <exclusionTags>
+    <li>CircadianCycle</li>
+  </exclusionTags>
+</GeneDef>
+
+
+
+<GeneDef>
+  <defName>UG_WarmShiftingBlood</defName>
+  <label>warm shifting blood</label>
+  <description>Carriers of this gene have an increased internal heat production range, granting them greater environmental flexibility.</description>
+  <iconPath>Genes/WarmShiftingBlood</iconPath>
+  <displayCategory>Miscellaneous</displayCategory>
+  <biostatCpx>2</biostatCpx>
+  <biostatMet>2</biostatMet>
+  <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  <statOffsets>
+    <ComfyTemperatureMin>5</ComfyTemperatureMin>
+    <ComfyTemperatureMax>10</ComfyTemperatureMax>
+  </statOffsets>
+  <statFactors>
+    <RestFallRateFactor>1.2</RestFallRateFactor>
+  </statFactors>
+  <exclusionTags>
+    <li>CircadianCycle</li>
+  </exclusionTags>
+</GeneDef>
+
+
+
+<GeneDef>
+    <defName>UG_TurbineLung</defName>
+    <label>turbine lung</label>
+    <description>Carriers of this gene possess a compact, multi-chambered lung that functions with the rhythmic efficiency of a heart or intestine.</description>
+    <iconPath>Genes/TurbineLung</iconPath>
+    <displayCategory>Movement</displayCategory>
+    <displayOrderInCategory>30</displayOrderInCategory>
+    <biostatCpx>2</biostatCpx>
+    <biostatMet>-1</biostatMet>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <statOffsets>
+      <MoveSpeed>0.1</MoveSpeed>
+      <ToxicEnvironmentResistance>-0.5</ToxicEnvironmentResistance>
+    </statOffsets>
+  </GeneDef>
+
+
+
+<GeneDef>
+  <defName>UG_DigitigradeGait</defName>
+  <label>digitigrade gait</label>
+  <description>Carriers of this gene have a modified leg structure that allows them to walk on their toes. This increases movement speed and stealth, but reduces the total weight they can stabilize.</description>
+  <iconPath>Genes/DigitigradeGait</iconPath>
+  <displayCategory>Movement</displayCategory>
+  <displayOrderInCategory>50</displayOrderInCategory>
+  <biostatCpx>1</biostatCpx>
+  <biostatMet>-2</biostatMet>
+  <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  <exclusionTags>
+    <li>FootType</li>
+  </exclusionTags>
+  <statOffsets>
+    <MoveSpeed>0.1</MoveSpeed>
+    <HuntingStealth>0.25</HuntingStealth>
+  </statOffsets>
+  <statFactors>
+    <CarryingCapacity>0.8</CarryingCapacity>
+  </statFactors>
+</GeneDef>
+
+
+
+<GeneDef>
+  <defName>UG_UnguligradeGait</defName>
+  <label>unguligrade gait</label>
+  <description>Carriers of this gene possess hoof-like feet, providing superior movement speed and carrying efficiency.</description>
+  <iconPath>Genes/UnguligradeGait</iconPath>
+  <displayCategory>Movement</displayCategory>
+  <displayOrderInCategory>50</displayOrderInCategory>
+  <biostatCpx>1</biostatCpx>
+  <biostatMet>-3</biostatMet>
+  <canGenerateInGeneSet>true</canGenerateInGeneSet>
+  <exclusionTags>
+    <li>FootType</li>
+  </exclusionTags>
+  <statOffsets>
+    <MoveSpeed>0.2</MoveSpeed>
+    <HuntingStealth>-0.5</HuntingStealth>
+  </statOffsets>
+  <statFactors>
+    <CarryingCapacity>1.2</CarryingCapacity>
+  </statFactors>
+</GeneDef>
+
+
+
+
+
+
+
+  <GeneDef>
+    <defName>UG_PhoenixArchite</defName>
+    <label>phoenix</label>
+    <labelShortAdj>phoenix</labelShortAdj>
+    <description>Carriers of this gene can rise again after death. If the carrier dies as an adult, a baby will emerge from the corpse after 9 hours, inheriting all genes and passions.</description>
+    <iconPath>Genes/PhoenixArchite</iconPath>
+    <displayCategory>Archite</displayCategory>
+    <geneClass>DragoZanko.Ultra.Genes.Gene_Phoenix</geneClass>
+    <biostatCpx>3</biostatCpx>
+    <biostatMet>1</biostatMet>
+    <biostatArc>2</biostatArc>
+    <canGenerateInGeneSet>true</canGenerateInGeneSet>
+    <displayOrderInCategory>140</displayOrderInCategory>
+    <statFactors>
+      <Fertility>0.01</Fertility>
+    </statFactors>
+  </GeneDef>
+
+  <HediffDef>
+    <defName>UG_PhoenixVigilante</defName>
+    <label>phoenix essence</label>
+    <description>Monitoring life spark for rebirth.</description>
+    <hediffClass>DragoZanko.Ultra.Genes.Hediff_PhoenixVigilante</hediffClass>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>
